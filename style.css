@@ -282,6 +282,7 @@ ul {
     justify-content: center;
     margin-bottom: 2rem;
     text-decoration: none;
+    margin-left: 1.5rem;
 }
 .links:hover {
     cursor: pointer;
