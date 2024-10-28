@@ -662,5 +662,8 @@ ul {
 .expsh{
     margin-top: 1.5rem;
 }
+body, html {
+    overflow-x: hidden;
+}
 }
     
