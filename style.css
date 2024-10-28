@@ -543,7 +543,7 @@ ul {
     font-size: 1.2rem;
 }
 .links ul{
-    gap: 2rem;
+    gap: .5rem;
 }
 .links li a{
     font-size: 1rem;
