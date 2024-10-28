@@ -1,0 +1,665 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+* {
+    box-sizing: border-box;
+    color: rgb(139, 135, 135);
+    background-color: #000000;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    scrollbar-track-color: #000000;
+    scrollbar-base-color: #000000;
+    
+}
+
+body {
+    cursor: url('img/cursor-removebg-preview.png'), auto;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#fp, #about,#skills,#exp,#pro {
+    padding-left: 3.75rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 1.25rem;
+    margin-right: 0.0625rem;
+    margin-left: 2.5rem;
+}
+
+.name{
+    font-size: 2rem;
+}
+.nav2 {
+    font-size: 1.25rem;
+}
+
+.name:hover {
+    color: #4ee943;
+    transition: color 0.3s ease;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3.125rem;
+    margin-right: 2rem;
+}
+
+.mov1 {
+    display: inline-block;
+}
+
+.mov1 a {
+    color: rgb(139, 135, 135);
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+.mov1 a:hover {
+    color: #4ee943;
+    transition: color 0.3s ease;
+}
+
+.txtclr:hover {
+    color: #4ee943;
+    transition: color 0.3s ease;
+}
+
+.txtclr1 {
+    margin-right: 0.6875rem;
+}
+
+.heading {
+    font-size: 21.875rem;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 18.125rem;
+    margin: 0px 3.75rem 3.125rem 0;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -.75rem;
+}
+
+.line1 {
+    color: rgb(156, 153, 153);
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 2rem;
+}
+
+#about {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+#about img {
+    max-width: 40%;
+    /* Controls image width */
+    height: auto;
+    border-radius: 0.625rem;
+}
+
+.heading2 {
+    font-size: 4.375rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}
+
+.heading2:hover {
+    color: #4ee943;
+    transition: color 0.3s ease;
+}
+
+.p1 {
+    margin-top: 3rem;
+    margin-right: 20rem;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 1.875rem;
+    font-size: 1.2rem;
+}
+
+.heading3 {
+    font-size: 4.375rem;
+    font-weight: 600;
+}
+
+.heading3:hover {
+    color: #4ee943;
+    transition: color 0.3s ease;
+}
+
+#skills {
+    margin: 4.375rem 0;
+    margin-top: 2rem;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem 0px;
+}
+
+.basebar {
+    border: solid 1px white;
+    width: 100%;
+    height: .5rem;
+    border-radius: 0.3125rem;
+    bottom: 0rem;
+    position: absolute;
+
+}
+
+.progressbar {
+    margin-top: 2%;
+}
+
+.htmlbar {
+    background-color: #4ee943;
+    width: 80%;
+}
+
+.jsbar {
+    background-color: #4ee943;
+    width: 70%;
+}
+
+.cssbar {
+    background-color: #4ee943;
+    width: 80%;
+}
+
+.bsbar {
+    background-color: #4ee943;
+    width: 70%;
+}
+
+.tcssbar {
+    background-color: #4ee943;
+    width: 80%;
+}
+
+.rbar {
+    background-color: #4ee943;
+    width: 70%;
+}
+
+.wpbar {
+    background-color: #4ee943;
+    width: 80%;
+}
+
+.pbar {
+    background-color: #4ee943;
+    width: 80%;
+}
+
+.djbar {
+    background-color: #4ee943;
+    width: 70%;
+}
+
+.sqlbar {
+    background-color: #4ee943;
+    width: 70%;
+}
+
+.cntsp2 {
+    width: 25%;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1.875rem;
+}
+
+.line2 {
+    color: rgb(156, 153, 153);
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.conthead {
+    font-size: 14.0625rem;
+    letter-spacing: 3.125rem;
+    text-align: center;
+    /* Center the text */
+    margin: 0;    
+    visibility: collapse;
+}
+
+.p3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1.875rem;
+    text-decoration: none;
+}
+.p3 a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.p3:hover {
+    cursor: pointer;
+
+}
+
+.p3 a:hover {
+    color: #4ee943;
+}
+
+.links {
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+.links:hover {
+    cursor: pointer;
+}
+
+.linksm {
+    border: solid 0.125rem;
+    padding: 0.4375rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+}
+.linksm a {
+     text-decoration: none; 
+    }
+.linksm:hover {
+    color: #4ee943;
+}
+
+.footName {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.875rem;
+}
+
+.iconuparrow {
+    float: right;
+    margin-left: auto;
+
+}
+.exphead{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 4.375rem;
+    font-weight: 600;
+}
+.exphead:hover{
+    color: #4ee943;
+}
+
+.exptak{
+    width: 70%;
+    border: solid 1px #4ee943;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    margin: 2%;
+}
+.p3{
+    line-height: 1.7;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.cv{
+    border: solid 0.125rem;
+    padding: 0.4375rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    justify-content: center;
+}
+.cv a:hover{
+    color: #4ee943;
+}
+.exphead2{
+    margin-top: 3.125rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.expsh{
+    width: 70%;
+    border: solid 1px #4ee943;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    margin: 2%;   
+}
+#exp{
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+.flex-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutimg{
+    max-width: 40%;
+    /* Controls image width */
+    height: auto;
+    margin-right: 4.375rem;
+}
+.progress-wrapper{
+    width: 60%;
+    margin-right: 20rem;
+}
+.marquee-text{
+    font-size: 9rem;
+    letter-spacing: -.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.download-cv{
+    padding: .7rem;
+    border:solid;
+    border-radius: .3rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.download-cv:hover{
+    color: #4ee943;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contcts{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footName1{
+    font-size: 1.2rem;
+}
+.project1{
+    font-size: 4.375rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: absolute;
+}
+.project{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.prjtgp1{
+    display: flex;
+}
+.spinner img{
+   width: 5rem;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.spinner img{
+    animation: rotate 2s linear infinite;
+}
+.spinner{
+    margin-bottom: 0;
+}
+.projectk a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.projectk a:hover{
+    color: #4ee943;
+}
+.prohead h1:hover{
+    color: #4ee943;
+}
+.prjtgp1{
+    margin-bottom: 2rem;
+}
+.prjtimg {
+    display: flex;             /* Set the container to flex */
+    justify-content: flex-end; /* Align children to the right */
+    width: 100%;              /* Ensure it takes the full width */
+}
+
+.primg {
+    width: auto; /* You can specify a fixed width or keep it auto */
+    height: auto; /* Adjust height as needed */
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+.kdespt{
+    margin-top: 3rem;
+    margin-right: 60rem;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+.hamburger-icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.menu-toggle{
+    display: none;
+}
+@media screen and (max-width: 414px)
+{
+    .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right:0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    z-index: 100;
+}
+
+/* Display the nav links vertically */
+.nav-links ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mobile Styles for Links */
+.nav-links a {
+    color: white;
+    padding: .5rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+/* Hamburger Icon Display on Mobile */
+.hamburger-icon {
+    display: block;
+    color: #333;
+}
+
+/* Show nav-links when the menu-toggle checkbox is checked */
+.menu-toggle:checked + .hamburger-icon + .nav-links {
+    display: flex;
+}
+.name{
+    font-size: 1rem;
+}
+.heading{
+    font-size: 4.7rem;
+    letter-spacing: -.11rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+.txtclr2{
+    font-size: 4.7rem;
+    letter-spacing: -.11rem;
+}
+.flex-wrapper{
+    display: inline;
+}
+.heading2, .exphead, .project1, .heading3{
+    font-size: 2rem;
+}
+.spinner img{
+    width: 2rem;
+}
+.p3 a{
+    font-size: 1.2rem;
+}
+.links ul{
+    gap: 2rem;
+}
+.links li a{
+    font-size: 1rem;
+}
+.links1{
+    margin-right: 0;
+}
+.footName1{
+    font-size: .6rem;
+}
+.p1{
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.aboutimg {
+    margin:0;
+    margin-top: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1.5rem;
+}
+.kdespt {
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.p2{
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 5rem;
+   text-align: justify;
+   margin-top: 2rem;
+   font-size: 1rem;
+}
+.linksm {
+    font-size: 2rem;
+    padding: .5rem;
+    border: none;
+}
+.linksm:hover{
+    cursor: pointer;
+}
+.cntsp2 {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+}
+.cntsp2 p{
+    padding: 0;
+    margin: 0;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+.projectk a{
+    font-size: 1.5rem;
+}
+.p3{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.exphead2{
+    margin-top: 1.5rem;
+}
+.barhead{
+    font-size: 1rem;
+}
+.barpercentage{
+    font-size: 1rem;
+}
+.progressbar{
+    margin-top: 1.5rem;
+}
+.progress-wrapper{
+    margin-right: 0;
+}
+#about, #exp, #pro{
+    margin-right: 3rem;
+}
+.Experience{
+    width: 100%;
+}
+.line1{
+    width: 90%;
+    
+}
+#about, #skills{
+    margin-top: 1.5rem;
+}
+.nav-links{
+    width: 20%;
+    padding: 0;
+    margin-right: 1.2rem;
+}
+[data-aos] {
+    opacity: 1 !important; /* Ensure elements are visible */
+    transform: none !important; /* Cancel any transforms from AOS */
+}
+.expwrapper{
+    width: 125%;
+}
+.expsh{
+    margin-top: 1.5rem;
+}
+}
+    
