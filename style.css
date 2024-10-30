@@ -553,6 +553,10 @@ ul {
 }
 .footName1{
     font-size: .6rem;
+    margin-left: 3rem;
+}
+.container{
+    margin-left: -1rem;
 }
 .p1{
     margin-right: 0;
@@ -581,14 +585,15 @@ ul {
     margin-top: 1.5rem;
 }
 .p2{
-   margin: 0;
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 5rem;
+   width: 80%;
    text-align: justify;
    margin-top: 2rem;
    font-size: 1rem;
+
+
 }
 .linksm {
     font-size: 2rem;
@@ -604,6 +609,7 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: justify;
+    margin: 0;
 
 }
 .cntsp2 p{
@@ -611,6 +617,7 @@ ul {
     margin: 0;
     margin-top: 1.5rem;
     width: 100%;
+    margin-left: 2rem;
 }
 .projectk a{
     font-size: 1.5rem;
@@ -633,12 +640,13 @@ ul {
 }
 .progress-wrapper{
     margin-right: 0;
+    width: 18rem;
 }
 #about, #exp, #pro{
     margin-right: 3rem;
 }
 .Experience{
-    width: 100%;
+    width: 110%;
 }
 .line1{
     width: 90%;
@@ -646,6 +654,12 @@ ul {
 }
 #about, #skills{
     margin-top: 1.5rem;
+}
+#skills img{
+    max-width: 90%;
+}
+#about img{
+    max-width: 100%;
 }
 .nav-links{
     width: 20%;
